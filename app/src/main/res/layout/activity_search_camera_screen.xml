@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchCameraScreenActivity"
+    android:orientation="vertical"
+    android:background="#D3D3D3"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_bt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="4"
+            android:background="@drawable/ic_baseline_navigate_before_24"
+            app:backgroundTint="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:text="카메라로 검색"
+            android:textSize="40dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:weightSum="100">
+
+
+        <ImageView
+            android:id="@+id/camera_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFFFFF"
+            android:layout_weight="30"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical|center_horizontal"
+            app:srcCompat="@drawable/ic_baseline_photo_camera_24"
+            tools:ignore="VectorDrawableCompat"/>
+
+        <TextView
+            android:id="@+id/image_details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="위의 카메라 이미지를 클릭해주세요\n \n !주의사항! \n 한개의 쓰레기만 찍어주세요"
+            android:autoSizeTextType="uniform"
+            android:textStyle="bold"
+            android:layout_weight="70"/>
+    </LinearLayout>
+
+
+</LinearLayout>

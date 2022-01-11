@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<integer-array name="resId">
+    <item>@drawable/vinyl</item>
+    <item>@drawable/can</item>
+    <item>@drawable/pt</item>
+    <item>@drawable/drinkbottle</item>
+    <item>@drawable/milkcarton</item>
+    <item>@drawable/milkcarton</item>
+    <item>@drawable/milkcarton</item>
+</integer-array>
+
+<string-array name="title">
+    <item>비닐봉지</item>
+    <item>캔</item>
+    <item>페트병</item>
+    <item>음료수병</item>
+    <item>우유팩</item>
+    <item>우유팩</item>
+    <item>우유팩</item>
+</string-array>
+
+<string-array name="content">
+    <item>분류 : 비닐류 </item>
+    <item>분류 : 금속캔 </item>
+    <item>분류 : 플라스틱 PET병 </item>
+    <item>분류 : 유리병 </item>
+    <item>분류 : 종이팩 </item>
+    <item>분류 : 종이팩 </item>
+    <item>분류 : 종이팩 </item>
+</string-array>
+
+<string-array name="content2">
+    <item>분류 방법 : 음식물 등 이물질을 깨끗하게 비우고 물기제거 \n 오염된 비닐은 종량제 봉투에 배출</item>
+    <item>분류 방법 : 플라스틱 뚜껑 및 내용물을 비우고 배출 </item>
+    <item>분류 방법 : 뚜껑과 은박지, 라벨 등은 제거하여 배출 </item>
+    <item>분류 방법 : 병뚜껑을 제거하고 내용물을 깨끗하게 비우고 배출 \n 소주병, 맥주병은 소매점 등에서 보증금 환불 가능 </item>
+    <item>분류 방법 : 내용물을 비우고 물로 행군 후 말려서 배출 </item>
+</string-array>
+
+</resources>

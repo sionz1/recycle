@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Separate_collection_app"

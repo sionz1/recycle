@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeperateScreenActivity"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </WebView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#4CAF50"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/search_screen_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_search_24"
+            app:backgroundTint="#8BC34A"
+            app:backgroundTintMode="add"
+            app:iconTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/alarm_screen_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_access_alarm_24"
+            app:backgroundTint="#8BC34A"
+            app:backgroundTintMode="add" />
+
+        <Button
+            android:id="@+id/seperate_screen_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_delete_sweep_24"
+            app:backgroundTint="#8BC34A"
+            app:backgroundTintMode="add" />
+
+        <Button
+            android:id="@+id/historty_screen_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_article_24"
+            app:backgroundTint="#8BC34A"
+            app:backgroundTintMode="add" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

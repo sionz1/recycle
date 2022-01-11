@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchScreenActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/cearchView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="7dp"
+        android:layout_weight="7"
+        android:background="#D3D3D3">
+
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/camera_search"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="카메라 검색"
+            android:textSize="23dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/gallery_search"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="갤러리 검색"
+            android:textSize="23dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#4CAF50"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/search_screen_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_search_24"
+            app:backgroundTint="#8BC34A"
+            app:backgroundTintMode="add"
+            app:iconTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/alarm_screen_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_access_alarm_24"
+            app:backgroundTint="#8BC34A"
+            app:backgroundTintMode="add" />
+
+        <Button
+            android:id="@+id/seperate_screen_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_delete_sweep_24"
+            app:backgroundTint="#8BC34A"
+            app:backgroundTintMode="add" />
+
+        <Button
+            android:id="@+id/historty_screen_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_article_24"
+            app:backgroundTint="#8BC34A"
+            app:backgroundTintMode="add" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
